@@ -1,0 +1,416 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Nunito Sans', sans-serif;
+    height: 3000px;
+    background-color: #F5F5F5;
+
+}
+
+h2
+{
+    font-weight: 500;
+}
+
+/* start header */
+
+header
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+
+}
+
+.overlay-itro
+{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+}
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+}
+
+.h-content h1
+{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.h-content p
+{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 15px;
+}
+
+
+/* end header */
+
+
+/* start about */
+
+.about-me
+{
+    padding: 50px 0px;
+}
+
+.about-me .about
+{
+    line-height: 30px;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+
+
+.about-me .about p
+{
+    padding: 10px 0px;
+}
+
+
+
+
+
+/* end about */
+
+
+
+/* start servicse */
+
+
+
+
+.services
+{
+    height: 500px;
+}
+
+.services
+{
+    padding: 50px 20px;
+    background-color:#F7F7F7;
+    height:auto;
+}
+
+.services .service
+{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #F7F7F7;
+    padding: 50px 20px;
+    line-height: 30px;
+
+}
+
+.services i
+{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px;
+    border: 10px solid blue;
+    border-radius: 50%;
+    color: #000;
+    background-color: #F7F7F7;
+    transition: all .5s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.services .service:hover i
+{
+    background-color: blue;
+    border:10px solid rgb(155, 162, 245);
+}
+
+
+/* end servicse */
+
+
+/* start numberes */
+
+
+
+.numbers
+{
+    padding: 130px 15px;
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+}
+
+.numbers h3
+{
+font-weight: 500;
+font-size: 40px;
+}
+
+
+.numbers p
+{
+ 
+    font-weight: 400;
+}
+
+.overlay-numberes
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0078ff;
+    opacity: .7;
+}
+
+.footer
+{
+    background-color: white;
+}
+
+.numbers i
+{
+    font-size: 40px;
+    padding: 20px;
+    padding-bottom: 20px;
+    border: 10px solid rgb(155, 162, 245);
+    border-radius: 50%;
+}
+
+/* end numberes */
+
+
+/* start portfolio */
+
+
+.portfolio
+{
+    padding: 50px 0;
+    background-color: #F7F7F7;
+}
+
+.portfolio h3
+{
+    font-weight: 900;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.portfolio h5
+{
+    font-weight: 900;
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.card
+{
+    overflow: hidden;
+
+}
+
+.portfolio img
+{
+    transition: all 2s ease-in-out;
+}
+
+.portfolio button
+{
+
+    padding: 0px 10px;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+
+.portfolio .card:hover img
+{
+transform: scale(1.2,1.2);
+}
+
+
+/* end portfolio */
+
+
+/* start commentas */
+
+.comments
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100PX 0PX;
+    position: relative;
+    color: white;
+}
+
+.comments img
+{
+    border-radius: 50%;
+}
+
+.comments h5
+{
+    padding: 20px;
+}
+
+.comments i
+{
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    border-radius: 50%;
+}
+
+.comm-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0078ff;
+    opacity: .7;
+}
+
+.carousel-indicators
+{
+    margin-top: 20px;
+    height: 20px;
+}
+
+.carousel-indicators li
+{
+    height: 10px;
+}
+
+
+/* end comments */
+
+/* start blog */
+
+
+.blog .card-bodyy
+{
+    position: relative;
+    padding: 10px;
+}
+
+.blog .p-a
+{
+
+    position: absolute;
+    bottom: 70%;
+    left: 40%;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.card-per
+{
+    background-color: rgba(0,0,0,.2);
+    padding: 5px;
+}
+
+.card-per img
+{
+width: 10%;
+border-radius: 50%;
+}
+
+
+/* end blog */
+
+
+
+
+
+footer
+{
+    padding: 20px 40px;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.footer-layer
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0078ff;
+    opacity: .7;
+}
+
+footer input , textarea
+{
+    width: 100% ;
+    margin: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer .info i
+{
+    color: blue;
+}
+
+footer .brand-icon
+{
+    padding: 60px;
+}
+
+
+
+footer .brand-icon .fa-stack
+{
+    
+    
+    background-color: #F7F7F7;
+    transition: all .5s ease-in-out;
+    margin: 5px 6px;
+}
+
+
+
+footer .brand-icon .fa-stack:hover 
+{
+    color: blueviolet;
+  
+}
+
+
+
+
+ 
+
